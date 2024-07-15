@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: fit-content;
+    padding: 10px 20px;
+    background-color: rgba(0, 29, 91, 0.75);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+h1{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}

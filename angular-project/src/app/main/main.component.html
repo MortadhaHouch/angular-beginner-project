@@ -1,0 +1,6 @@
+<main>
+  <app-button></app-button>
+  <section>
+    <app-card [item]="item" *ngFor="let item of tasks; trackBy: trackById"></app-card>
+  </section>
+</main>
